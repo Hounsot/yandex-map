@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
         console.log('test')
 let map = null;
         main();
@@ -6692,3 +6693,31 @@ let map = null;
             let MapMarkerImage = document.querySelector('#MapMarker')
             MapMarkerImage.style.transform = 'translateY(-64px)';
         }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
