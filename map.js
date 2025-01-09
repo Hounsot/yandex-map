@@ -1,5 +1,5 @@
-let map = null;
         console.log('test')
+let map = null;
         main();
         
         async function main() {
