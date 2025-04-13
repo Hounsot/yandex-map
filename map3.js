@@ -30,7 +30,7 @@ let map = null;
 
             // Initialize map
             map = new YMap(
-                document.getElementById('map'),
+                document.getElementById('map2'),
                 {
                     location: LOCATION
                 }
