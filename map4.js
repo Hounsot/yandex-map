@@ -20,9 +20,9 @@ let map = null;
                 YMapGeolocationControl
             } = await ymaps3.import('@yandex/ymaps3-controls@0.0.1');
 
-            // Define coordinates 55.497733, 37.429007
-            const CENTER_COORDINATES = [37.429007, 55.497733];
-            const MARKER_COORDINATES = [37.429007, 55.497733];
+            // Define coordinates 55.800717, 38.044708
+            const CENTER_COORDINATES = [38.044708, 55.800717];
+            const MARKER_COORDINATES = [38.044708, 55.800717];
             const LOCATION = {
                 center: CENTER_COORDINATES,
                 zoom: 10
@@ -30,7 +30,7 @@ let map = null;
 
             // Initialize map
             map = new YMap(
-                document.getElementById('map2'),
+                document.getElementById('map'),
                 {
                     location: LOCATION
                 }
