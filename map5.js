@@ -25,7 +25,7 @@ let map = null;
             const MARKER_COORDINATES = [37.194674, 55.565233];
             const LOCATION = {
                 center: CENTER_COORDINATES,
-                zoom: 20
+                zoom: 100
             };
 
             // Initialize map
