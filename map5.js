@@ -25,7 +25,7 @@ let map = null;
             const MARKER_COORDINATES = [37.194674, 55.565233];
             const LOCATION = {
                 center: CENTER_COORDINATES,
-                zoom: 10
+                zoom: 11
             };
 
             // Initialize map
@@ -6669,7 +6669,7 @@ let map = null;
             // Create custom marker
             const markerElement = document.createElement('div');
             markerElement.className = 'custom-marker';
-            markerElement.innerHTML = '<img id="MapMarker" style="height:63.97px; width: 54px;" src="https://optim.tildacdn.com/tild6431-3038-4561-b666-653933616637/-/resize/108x/-/format/webp/Tokarevo_Map_pin.png.webp" alt="">';
+            markerElement.innerHTML = '<img id="MapMarker" style="height:63.97px; width: 54px;" src="https://optim.tildacdn.com/tild3130-3037-4062-b735-613533393333/-/resize/216x/-/format/webp/Map_pin.png.webp" alt="">';
             
             // Create container for marker elements
             const markerContainer = document.createElement('div');
